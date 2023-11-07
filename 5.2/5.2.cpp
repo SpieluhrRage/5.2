@@ -3,6 +3,7 @@
 using namespace std;
 int main() {
 	int a;
+	cout << "Введите число, до которого надо найти все простые числа: " << endl;
 	cin >> a;
 	for (int i = 2; i <= a; i++) {
 		bool fl = true;
